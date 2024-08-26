@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ <suite name="API Automation Session Smoke Suite">
+    <test name="API Users TestCases">
+<!--        <classes>-->
+<!--            <class name="userManagement.getPostmanEcho"/>-->
+<!--        </classes>-->
+<!--        <packages>-->
+<!--            <package name="userManagement"></package>-->
+<!--        </packages>-->
+        <groups>
+            <run>
+                <include name="RegressionSuite"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="userManagement.getUsers"></class>
+            <class name="userManagement.getErgast"></class>
+        </classes>
+    </test>
+</suite>

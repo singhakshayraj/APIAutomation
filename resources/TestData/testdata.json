@@ -1,0 +1,27 @@
+{
+  "username": "postman",
+  "password": "password",
+  "endpoint": "users",
+  "languages": [
+    "Java",
+    "JavaFX",
+    "Python"
+  ],
+  "technology": [
+    "AI",
+    "ML",
+    "Analytics"
+  ],
+  "Marks": [
+    1,
+    2,
+    3
+  ],
+  "contact": [
+    "email: akshay.raj.singh@gmail.com",
+    "phone: 9703242488",
+    "city: Hyderabad",
+    "Aread: Malakpet",
+    "State: Telangana"
+  ]
+}
